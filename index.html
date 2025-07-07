@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sitio oficial del gimnasio Energía Total">
+  <title>Gimnasio Energía Total</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/fondo.jpg" alt="">
+    <h1>Gimnasio Energía Total</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Bienvenido al <strong>Gimnasio Energía Total</strong>, el espacio perfecto para alcanzar tus metas de salud y condición física. Contamos con una amplia variedad de equipos modernos, entrenadores certificados y un ambiente motivador diseñado para todas las edades y niveles de experiencia.</p>
+      <p>En nuestro gimnasio, creemos en el poder de la constancia, la disciplina y el trabajo en equipo. Ya sea que quieras perder peso, ganar masa muscular, mejorar tu resistencia o simplemente llevar un estilo de vida saludable, aquí encontrarás el apoyo que necesitas.</p>
+      <p>¡Únete hoy y sé parte de la comunidad Energía Total!</p>
+      
+    </section>
+
+    <section id="historia">
+      <h2>Nuestra Historia</h2>
+      <p><strong>Energía Total</strong> abrió sus puertas en 2010 con el sueño de transformar vidas a través del ejercicio físico y la salud integral. Empezamos como un pequeño centro de entrenamiento con unos cuantos equipos, pero con una gran visión: hacer del fitness un estilo de vida accesible para todos.</p>
+      <p>Con el tiempo, gracias al compromiso de nuestro equipo y la fidelidad de nuestros miembros, crecimos en espacio, servicios y prestigio. Hoy en día contamos con más de 1000 socios activos, una plantilla profesional de entrenadores y nutricionistas, y una programación diaria de clases para todos los gustos.</p>
+      <p>Creemos firmemente en que el bienestar es un derecho, y por eso seguimos innovando y creciendo para darte lo mejor. Somos más que un gimnasio: somos tu segunda casa.</p>
+    </section>
+
+    <section id="servicios">
+     <center><h2>Servicios</h2></center>
+      <p>
+       <center> <h1>Entrenamiento personalizado</h1></center> 
+         <img src="img/entrenamiento.jpg" alt="">
+        
+       <center><h1>Clases grupales: Zumba, Crossfit, Spinning</h1></center> 
+        <img src="img/zumba.jpg" alt="">
+    
+        <center><h1>Nutrición deportiva</h1></center>
+         <img src="img/nutricion.jpg" alt="">
+        
+        <center><h1>Área de pesas y cardio</h1></center>
+        <img src="img/pesas.jpg" alt="">
+        
+        <center><h1>Entrenamiento funcional</h1></center>
+        <img src="img/funcional.jpg" alt="">
+      </p>
+    </section>
+
+    <section id="catalogo">
+      <h2>Catálogo</h2>
+      <div class="catalogo-grid">
+        <div class="producto">
+          <img src="img/proteina.jpg" alt="Proteína" />
+          <h3>Proteína Whey</h3>
+          <p>Precio: Q250</p>
+        </div>
+        <div class="producto">
+          <img src="img/creatine.jpg" alt="creatina" />
+          <h3>creatine</h3>
+          <p>Precio: Q250</p>
+        </div>
+        <div class="producto">
+          <img src="img/guantes.jpg" alt="Guantes" />
+          <h3>Guantes de Gimnasio</h3>
+          <p>Precio: Q90</p>
+        </div>
+         <div class="producto">
+          <img src="img/straps.jpg" alt="straps" />
+          <h3>straps</h3>
+          <p>Precio: Q60</p>
+        </div>
+         <div class="producto">
+          <img src="img/cinturon.jpg" alt="cinturon" />
+          <h3>cinturon </h3>
+          <p>Precio: Q145</p>
+        </div>
+        <div class="producto">
+          <img src="img/termo.jpg" alt="Termo" />
+          <h3>Termo 1L</h3>
+          <p>Precio: Q60</p>
+        </div>
+      </div>
+    </section>
+
+    <form action="enviar.php" method="POST" id="formulario-contacto">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required />
+
+  <label for="correo">Correo electrónico:</label>
+  <input type="email" id="correo" name="correo" required />
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gimnasio Energía Total. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
