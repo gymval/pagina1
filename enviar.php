@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = filter_var($_POST["correo"], FILTER_SANITIZE_EMAIL);
     $mensaje = htmlspecialchars($_POST["mensaje"]);
 
-    $destino = "tucorreo@ejemplo.com"; // 👉 CAMBIA esto por tu correo real
+    $destino = "energygym54@gmail.com"; // 👉 CAMBIA esto por tu correo real
     $asunto = "Nuevo mensaje del formulario de contacto";
 
     $contenido = "Nombre: $nombre\n";
